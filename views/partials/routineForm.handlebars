@@ -1,0 +1,26 @@
+<form id="routine" name="routine" class="align-items-center">
+        <div class="form-group">
+            <label for="routineName">Routine Name: </label>
+            <input type="text" class="form-control" id="routineName" name="routineName" placeholder="Rip n Tear">
+            <button type="button" id="addExercise" class="btn-lg m-2">Add Another Exercise</button>
+        </div>
+        <div class="exercises">
+            <div class="form-row m-2 exercise">
+                <div class="form-group col-sm-2">
+                    <label for="repsInput">Reps/Minutes:</label>
+                    <input name="reps" type="number" class="form-control" id="repsInput" placeholder="25">
+                </div>
+                <div class="col">
+                    <div class="form-group col-sm-10">
+                        <label for="exerciseInput">Exercise:</label>
+                        <input name="exercise" type="text" class="form-control" id="exerciseInput" placeholder="Benchpress">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-9 m-2 d-flex justify-content-center">
+                <button id="create" type="button" class="btn-lg btn-block">Create My Fitness Routine!</button>
+            </div>
+        </div>
+    </form>

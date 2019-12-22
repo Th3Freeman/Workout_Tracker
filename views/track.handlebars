@@ -1,0 +1,26 @@
+<div class="container mx-auto">
+    <h1 style="text-align: center;">Track My Workout!</h1>
+    <hr>
+    <h2 style="text-align: center;">{{routine.name}}</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Completed</th>
+                <th scope="col">Goal</th>
+                <th scope="col">Remaining</th>
+                <th scope="col">Exercise</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each routine.exercises}}
+            <tr>
+                <td class="completed"><input type="number" name="completed" id="completed{{index}}"></td>
+                <td class="goal">{{reps}}</td>
+                <td class="remaining">{{reps}}</td>
+                <th scope="row">{{name}}</th>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+<script src="/assets/js/track.js"></script>

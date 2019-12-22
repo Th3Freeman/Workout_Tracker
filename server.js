@@ -3,7 +3,7 @@ const exphbs = require("express-handlebars");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const staticRouter = require("./routes/view-routes");
-const routineRouter = require("./routes/workoutRoutineRoutes");
+const routineRouter = require("./routes/fitnessRoutineRoutes");
 
 const PORT = process.env.PORT || 8080;
 
