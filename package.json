@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Th3Freeman/Workout_Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "express-mongoose-generator": "^3.0.3",
     "moment": "^2.24.0",
     "mongoose": "^5.8.0",
